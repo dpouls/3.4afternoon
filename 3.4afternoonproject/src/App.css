@@ -1,0 +1,116 @@
+ .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerBox {
+  /* border: 1px solid; */
+  height: 70px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #2aabe2;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+#home {
+  /* border: 1px solid; */
+}
+.card-button-container {
+  /* border: 1px solid; */
+  height: 500px;
+  width: 700px;
+  /* background-color: rgb(255, 255, 255) ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+}
+.card-placeholder {
+  /* border: 1px solid green; */
+  width: 600px;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 25px;
+  
+}
+#h2 {
+/* border: 1px solid; */
+/* text-align: right; */
+position: relative;
+bottom: 45px;
+left: 15px;
+}
+#allInfo {
+/* border: 1px solid; */
+display: flex;
+flex-direction: column;
+}
+.info{
+  /* border: 1px solid; */
+
+}
+
+span{
+  font-weight: bold;
+}
+.movies {
+  /* border: 1px solid; */
+  /* line-height: 20px; */
+}
+.fullName {
+  display: flex;
+  flex-direction: row;
+  /* width: 300px; */
+  /* border: 1px solid; */
+  font-weight: bolder;
+  font-size: 19pt;
+  text-decoration: underline  #2aabe2;
+}
+.button-box {
+  /* border: 1px solid white; */
+  height: 35px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.prev-next {
+  border: 1px solid rgba(255, 255, 255, 0) ;
+  width: 80px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+}
+.middle-button-container {
+  /* border: 1px solid white; */
+  width: 175px; 
+  display: flex;
+  justify-content: space-between;
+  
+}
+.middle-buttons{
+  border: 1px solid  #2aabe2 ;
+  width: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2aabe2;
+}
+#middle-button {
+  width: 50px;
+}
+
+li {
+  position: relative;
+  bottom: 15px;
+  left: 20px;
+}
